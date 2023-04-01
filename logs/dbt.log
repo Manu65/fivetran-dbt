@@ -1,0 +1,186 @@
+
+
+============================== 2023-04-01 13:28:20.641366 | b7273ea9-d022-4e6b-9633-7014a86a31d2 ==============================
+[0m13:28:20.641366 [info ] [MainThread]: Running with dbt=1.4.5
+[0m13:28:20.660298 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\USER\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'which': 'deps', 'rpc_method': 'deps', 'indirect_selection': 'eager'}
+[0m13:28:20.661297 [debug] [MainThread]: Tracking: tracking
+[0m13:28:20.711019 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3710D50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A327F4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A33F3750>]}
+[0m13:28:20.726641 [debug] [MainThread]: Set downloads directory='C:\Users\USER\AppData\Local\Temp\dbt-downloads-b0u1j4d7'
+[0m13:28:20.726641 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m13:28:21.484078 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m13:28:21.484078 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/ad_reporting.json
+[0m13:28:22.254267 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/ad_reporting.json 200
+[0m13:28:22.269847 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/apple_search_ads.json
+[0m13:28:28.999646 [debug] [MainThread]: External call exception: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[0m13:28:28.999646 [debug] [MainThread]: Retrying external call. Attempt: 0 Max attempts: 5
+[0m13:28:30.014127 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/apple_search_ads.json
+[0m13:28:31.158490 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/apple_search_ads.json 200
+[0m13:28:31.160489 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/snapchat_ads.json
+[0m13:28:32.255904 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/snapchat_ads.json 200
+[0m13:28:32.255904 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/facebook_ads.json
+[0m13:28:32.976709 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/facebook_ads.json 200
+[0m13:28:32.979709 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/google_ads.json
+[0m13:28:33.736416 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/google_ads.json 200
+[0m13:28:33.736416 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/pinterest.json
+[0m13:28:34.474287 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/pinterest.json 200
+[0m13:28:34.474287 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/linkedin.json
+[0m13:28:35.230187 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/linkedin.json 200
+[0m13:28:35.233188 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/microsoft_ads.json
+[0m13:28:35.934359 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/microsoft_ads.json 200
+[0m13:28:35.937357 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/tiktok_ads.json
+[0m13:28:36.686247 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/tiktok_ads.json 200
+[0m13:28:36.688246 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/twitter_ads.json
+[0m13:28:38.786674 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/twitter_ads.json 200
+[0m13:28:38.788737 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/amazon_ads.json
+[0m13:28:40.473485 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/amazon_ads.json 200
+[0m13:28:40.474485 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/reddit_ads.json
+[0m13:28:41.304490 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/reddit_ads.json 200
+[0m13:28:41.304490 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/apple_search_ads_source.json
+[0m13:28:42.178854 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/apple_search_ads_source.json 200
+[0m13:28:42.178854 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/snapchat_ads_source.json
+[0m13:28:42.916105 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/snapchat_ads_source.json 200
+[0m13:28:42.916105 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/facebook_ads_source.json
+[0m13:28:43.622042 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/facebook_ads_source.json 200
+[0m13:28:43.622042 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/google_ads_source.json
+[0m13:28:45.703579 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/google_ads_source.json 200
+[0m13:28:45.703579 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/pinterest_source.json
+[0m13:28:46.408081 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/pinterest_source.json 200
+[0m13:28:46.408081 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/linkedin_source.json
+[0m13:28:47.429973 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/linkedin_source.json 200
+[0m13:28:47.445550 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/microsoft_ads_source.json
+[0m13:28:48.184027 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/microsoft_ads_source.json 200
+[0m13:28:48.184027 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/tiktok_ads_source.json
+[0m13:28:48.890378 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/tiktok_ads_source.json 200
+[0m13:28:48.890378 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/twitter_ads_source.json
+[0m13:28:50.187250 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/twitter_ads_source.json 200
+[0m13:28:50.190248 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/amazon_ads_source.json
+[0m13:28:50.925210 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/amazon_ads_source.json 200
+[0m13:28:50.927209 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/reddit_ads_source.json
+[0m13:28:51.645051 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/reddit_ads_source.json 200
+[0m13:28:51.645051 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_utils.json
+[0m13:28:52.413369 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_utils.json 200
+[0m13:28:52.434280 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/spark_utils.json
+[0m13:28:58.556144 [debug] [MainThread]: External call exception: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[0m13:28:58.557144 [debug] [MainThread]: Retrying external call. Attempt: 0 Max attempts: 5
+[0m13:28:59.559312 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/spark_utils.json
+[0m13:29:00.151260 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/spark_utils.json 200
+[0m13:29:00.169225 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/calogica/dbt_expectations.json
+[0m13:29:01.056616 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/calogica/dbt_expectations.json 200
+[0m13:29:01.066612 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m13:29:01.771844 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m13:29:01.794829 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/calogica/dbt_date.json
+[0m13:29:02.520614 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/calogica/dbt_date.json 200
+[0m13:29:02.583109 [info ] [MainThread]: Installing fivetran/ad_reporting
+[0m13:29:05.123386 [info ] [MainThread]:   Installed from version 1.3.1
+[0m13:29:05.124386 [info ] [MainThread]:   Up to date!
+[0m13:29:05.126385 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'b7273ea9-d022-4e6b-9633-7014a86a31d2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A32DF3D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3777010>]}
+[0m13:29:05.127387 [info ] [MainThread]: Installing fivetran/apple_search_ads
+[0m13:29:06.798596 [info ] [MainThread]:   Installed from version 0.2.0
+[0m13:29:06.798596 [info ] [MainThread]:   Up to date!
+[0m13:29:06.798596 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'b7273ea9-d022-4e6b-9633-7014a86a31d2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A2F58E50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A2F5A590>]}
+[0m13:29:06.798596 [info ] [MainThread]: Installing fivetran/snapchat_ads
+[0m13:29:08.358311 [info ] [MainThread]:   Installed from version 0.5.1
+[0m13:29:08.359311 [info ] [MainThread]:   Up to date!
+[0m13:29:08.361311 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'b7273ea9-d022-4e6b-9633-7014a86a31d2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A36FEF10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A36FF550>]}
+[0m13:29:08.362309 [info ] [MainThread]: Installing fivetran/facebook_ads
+[0m13:29:10.007189 [info ] [MainThread]:   Installed from version 0.6.0
+[0m13:29:10.007189 [info ] [MainThread]:   Up to date!
+[0m13:29:10.007189 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'b7273ea9-d022-4e6b-9633-7014a86a31d2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A37F1290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A36FF550>]}
+[0m13:29:10.007189 [info ] [MainThread]: Installing fivetran/google_ads
+[0m13:29:11.439360 [info ] [MainThread]:   Installed from version 0.9.1
+[0m13:29:11.441360 [info ] [MainThread]:   Up to date!
+[0m13:29:11.443359 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'b7273ea9-d022-4e6b-9633-7014a86a31d2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A36FF550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A2F58E50>]}
+[0m13:29:11.444356 [info ] [MainThread]: Installing fivetran/pinterest
+[0m13:29:12.724924 [info ] [MainThread]:   Installed from version 0.7.0
+[0m13:29:12.724924 [info ] [MainThread]:   Up to date!
+[0m13:29:12.724924 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'b7273ea9-d022-4e6b-9633-7014a86a31d2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A379FE90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A379FE50>]}
+[0m13:29:12.724924 [info ] [MainThread]: Installing fivetran/linkedin
+[0m13:29:14.368144 [info ] [MainThread]:   Installed from version 0.7.0
+[0m13:29:14.368144 [info ] [MainThread]:   Up to date!
+[0m13:29:14.368144 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'b7273ea9-d022-4e6b-9633-7014a86a31d2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A37E4590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A37C69D0>]}
+[0m13:29:14.384211 [info ] [MainThread]: Installing fivetran/microsoft_ads
+[0m13:29:15.882703 [info ] [MainThread]:   Installed from version 0.6.0
+[0m13:29:15.885703 [info ] [MainThread]:   Up to date!
+[0m13:29:15.886702 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'b7273ea9-d022-4e6b-9633-7014a86a31d2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A36D5A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A37C69D0>]}
+[0m13:29:15.888700 [info ] [MainThread]: Installing fivetran/tiktok_ads
+[0m13:29:17.184730 [info ] [MainThread]:   Installed from version 0.3.0
+[0m13:29:17.186013 [info ] [MainThread]:   Up to date!
+[0m13:29:17.188018 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'b7273ea9-d022-4e6b-9633-7014a86a31d2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A2F40B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A37C69D0>]}
+[0m13:29:17.189016 [info ] [MainThread]: Installing fivetran/twitter_ads
+[0m13:29:18.460465 [info ] [MainThread]:   Installed from version 0.6.0
+[0m13:29:18.461383 [info ] [MainThread]:   Up to date!
+[0m13:29:18.463396 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'b7273ea9-d022-4e6b-9633-7014a86a31d2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A36D4110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A37A76D0>]}
+[0m13:29:18.464396 [info ] [MainThread]: Installing fivetran/amazon_ads
+[0m13:29:19.727475 [info ] [MainThread]:   Installed from version 0.1.0
+[0m13:29:19.728202 [info ] [MainThread]:   Up to date!
+[0m13:29:19.730206 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'b7273ea9-d022-4e6b-9633-7014a86a31d2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3790A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3C5FCD0>]}
+[0m13:29:19.731206 [info ] [MainThread]: Installing fivetran/reddit_ads
+[0m13:29:21.109296 [info ] [MainThread]:   Installed from version 0.1.0
+[0m13:29:21.110150 [info ] [MainThread]:   Up to date!
+[0m13:29:21.112167 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'b7273ea9-d022-4e6b-9633-7014a86a31d2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3C5F210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3C5FCD0>]}
+[0m13:29:21.113169 [info ] [MainThread]: Installing fivetran/apple_search_ads_source
+[0m13:29:22.330116 [info ] [MainThread]:   Installed from version 0.2.1
+[0m13:29:22.332114 [info ] [MainThread]:   Up to date!
+[0m13:29:22.334122 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'b7273ea9-d022-4e6b-9633-7014a86a31d2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3C5FAD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3C5FCD0>]}
+[0m13:29:22.335112 [info ] [MainThread]: Installing fivetran/snapchat_ads_source
+[0m13:29:25.658328 [info ] [MainThread]:   Installed from version 0.5.0
+[0m13:29:25.689309 [info ] [MainThread]:   Up to date!
+[0m13:29:25.696304 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'b7273ea9-d022-4e6b-9633-7014a86a31d2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3722D50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3790A90>]}
+[0m13:29:25.697303 [info ] [MainThread]: Installing fivetran/facebook_ads_source
+[0m13:29:27.243834 [info ] [MainThread]:   Installed from version 0.6.0
+[0m13:29:27.246831 [info ] [MainThread]:   Up to date!
+[0m13:29:27.247830 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'b7273ea9-d022-4e6b-9633-7014a86a31d2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3722250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3722D50>]}
+[0m13:29:27.249830 [info ] [MainThread]: Installing fivetran/google_ads_source
+[0m13:29:28.645180 [info ] [MainThread]:   Installed from version 0.9.1
+[0m13:29:28.663169 [info ] [MainThread]:   Up to date!
+[0m13:29:28.666168 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'b7273ea9-d022-4e6b-9633-7014a86a31d2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3722D50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3722250>]}
+[0m13:29:28.667166 [info ] [MainThread]: Installing fivetran/pinterest_source
+[0m13:29:32.898321 [info ] [MainThread]:   Installed from version 0.7.1
+[0m13:29:32.901319 [info ] [MainThread]:   Up to date!
+[0m13:29:32.903319 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'b7273ea9-d022-4e6b-9633-7014a86a31d2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3722D50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3722250>]}
+[0m13:29:32.904318 [info ] [MainThread]: Installing fivetran/linkedin_source
+[0m13:29:34.485738 [info ] [MainThread]:   Installed from version 0.7.0
+[0m13:29:34.486738 [info ] [MainThread]:   Up to date!
+[0m13:29:34.489737 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'b7273ea9-d022-4e6b-9633-7014a86a31d2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3722D50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3C5F410>]}
+[0m13:29:34.490738 [info ] [MainThread]: Installing fivetran/microsoft_ads_source
+[0m13:29:35.860323 [info ] [MainThread]:   Installed from version 0.7.0
+[0m13:29:35.861230 [info ] [MainThread]:   Up to date!
+[0m13:29:35.863236 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'b7273ea9-d022-4e6b-9633-7014a86a31d2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3795A10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3795550>]}
+[0m13:29:35.864237 [info ] [MainThread]: Installing fivetran/tiktok_ads_source
+[0m13:29:37.199770 [info ] [MainThread]:   Installed from version 0.3.0
+[0m13:29:37.200204 [info ] [MainThread]:   Up to date!
+[0m13:29:37.202210 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'b7273ea9-d022-4e6b-9633-7014a86a31d2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3795A10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3795550>]}
+[0m13:29:37.203207 [info ] [MainThread]: Installing fivetran/twitter_ads_source
+[0m13:29:38.623939 [info ] [MainThread]:   Installed from version 0.6.0
+[0m13:29:38.625940 [info ] [MainThread]:   Up to date!
+[0m13:29:38.626936 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'b7273ea9-d022-4e6b-9633-7014a86a31d2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3795550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3795A10>]}
+[0m13:29:38.627938 [info ] [MainThread]: Installing fivetran/amazon_ads_source
+[0m13:29:40.081314 [info ] [MainThread]:   Installed from version 0.1.1
+[0m13:29:40.082318 [info ] [MainThread]:   Up to date!
+[0m13:29:40.085314 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'b7273ea9-d022-4e6b-9633-7014a86a31d2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3795550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3796810>]}
+[0m13:29:40.086311 [info ] [MainThread]: Installing fivetran/reddit_ads_source
+[0m13:29:41.380390 [info ] [MainThread]:   Installed from version 0.1.0
+[0m13:29:41.385390 [info ] [MainThread]:   Up to date!
+[0m13:29:41.389385 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'b7273ea9-d022-4e6b-9633-7014a86a31d2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3795550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3C44710>]}
+[0m13:29:41.390383 [info ] [MainThread]: Installing fivetran/fivetran_utils
+[0m13:29:42.176567 [info ] [MainThread]:   Installed from version 0.4.3
+[0m13:29:42.177569 [info ] [MainThread]:   Up to date!
+[0m13:29:42.178565 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'b7273ea9-d022-4e6b-9633-7014a86a31d2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002199F5C3C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002199F5E5150>]}
+[0m13:29:42.179570 [info ] [MainThread]: Installing dbt-labs/spark_utils
+[0m13:29:42.783191 [info ] [MainThread]:   Installed from version 0.3.0
+[0m13:29:42.785192 [info ] [MainThread]:   Up to date!
+[0m13:29:42.787195 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'b7273ea9-d022-4e6b-9633-7014a86a31d2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002199F5E5150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3C44710>]}
+[0m13:29:42.788193 [info ] [MainThread]: Installing calogica/dbt_expectations
+[0m13:29:45.732286 [info ] [MainThread]:   Installed from version 0.8.4
+[0m13:29:45.733288 [info ] [MainThread]:   Up to date!
+[0m13:29:45.734284 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'b7273ea9-d022-4e6b-9633-7014a86a31d2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002199F5E5150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002199F5E7E50>]}
+[0m13:29:45.735289 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m13:29:46.868941 [info ] [MainThread]:   Installed from version 1.0.0
+[0m13:29:46.869943 [info ] [MainThread]:   Up to date!
+[0m13:29:46.871942 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'b7273ea9-d022-4e6b-9633-7014a86a31d2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3C44710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002199F5E7E50>]}
+[0m13:29:46.872939 [info ] [MainThread]: Installing calogica/dbt_date
+[0m13:29:47.582611 [info ] [MainThread]:   Installed from version 0.7.2
+[0m13:29:47.584610 [info ] [MainThread]:   Up to date!
+[0m13:29:47.587608 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'b7273ea9-d022-4e6b-9633-7014a86a31d2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A321CF10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002199F5E7E50>]}
+[0m13:29:47.609593 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A3704C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A37FF5D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A37FFA90>]}
+[0m13:29:48.506795 [debug] [MainThread]: Flushing usage events
